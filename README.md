@@ -16,15 +16,15 @@ Package with examples of weirdly failing variadic generics 🌚
 - Search for `🛑` to find failures
 
 ### Contents
-- **`Handler`** - [`Sources`]("Sources/Handler.swift") | [`Tests`]("Tests/HandlerTests.swift")
-  
+- **`Handler`** - [`Sources`]("Sources/Handler.swift") | [`Tests`]("Tests/HandlerTests.swift") | [`External non-variadic example`](https://github.com/CaptureContext/swift-declarative-configuration/blob/main/Sources/FunctionalClosures/Handler.swift)
+
   > Fails to compile, fails on a call site
   
-- **`Pack`** - [`Sources`]("Sources/Pack.swift") | [`Tests`]("Tests/PackTests.swift")
+- **`Pack`** - [`Sources`]("Sources/Pack.swift") | [`Tests`]("Tests/PackTests.swift") | [`External non-variadic example`](https://github.com/CaptureContext/swift-prelude/blob/main/Sources/Prelude/Tuples/Pack.swift)
   
   > Compiles successfully until there are no callers (for example when tests are commented)
   
-- **`Unpack`** - [`Sources`]("Sources/Unpack.swift") | [`Tests`]("Tests/UnpackTests.swift")
+- **`Unpack`** - [`Sources`]("Sources/Unpack.swift") | [`Tests`]("Tests/UnpackTests.swift") | [`External non-variadic example`](https://github.com/CaptureContext/swift-prelude/blob/main/Sources/Prelude/Tuples/Pack.swift)
   
   > Compiles successfully until there are no callers (for example when tests are commented)
 
